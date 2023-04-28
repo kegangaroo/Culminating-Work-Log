@@ -1,3 +1,8 @@
+# OOP examples and inspiration and notes
+- When compiling the code for the entire game,  
+- before starting the game loop, have pygame initialize, along with any other methods, or functions that will take place within the game loop
+- the game loop will resemble a condensed verion of recalling the already defined functions, 
+- the game loop will check for collisions, re-blit-ing of each sprite for every movement of change of direction
 ## Movement example
 ```python
 def update(self):
@@ -36,4 +41,5 @@ for entity in all_sprites:
     DISPLAYSURF.blit(entity.image, entity.rect)
     entity.move()
 ```
-
+## Full example with scrolling background for a vertical game
+https://coderslegacy.com/python/pygame-scrolling-background/
