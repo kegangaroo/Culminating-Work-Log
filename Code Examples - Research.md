@@ -41,5 +41,9 @@ for entity in all_sprites:
     DISPLAYSURF.blit(entity.image, entity.rect)
     entity.move()
 ```
+## Enemy Falling code
+```python
+
+```
 ## Full example with scrolling background for a vertical game
 https://coderslegacy.com/python/pygame-scrolling-background/
