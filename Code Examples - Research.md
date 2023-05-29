@@ -45,5 +45,9 @@ for entity in all_sprites:
 ```python
 
 ```
+## Movement of player
+```python
+
+```
 ## Full example with scrolling background for a vertical game
 https://coderslegacy.com/python/pygame-scrolling-background/
